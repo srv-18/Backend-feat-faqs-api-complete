@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/middlewares/cache.ts","./src/models/db.ts","./src/routes/admin.ts","./src/routes/faqs.ts","./src/services/translation.ts","./src/zod-schema/index.ts"],"version":"5.7.3"}

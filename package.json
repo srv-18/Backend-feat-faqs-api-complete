@@ -1,0 +1,26 @@
+{
+  "name": "faqs-endpoint-bharatfd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc -b && node ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/translate": "^8.5.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.6",
+    "redis": "^4.7.0",
+    "translate": "^3.0.1",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.1"
+  }
+}
