@@ -58,11 +58,17 @@ GET Request http://localhost:3000/api/faqs/?lang=hi
 
 # Features
 
-* The FAQS are cached in Redis.
+* The FAQS are cached in [Redis] and are used through middleware for faster responses.
 
 * It translates Questions and Answers when the admin entries the FAQS.
 
-* The Admin can add the FAQS to the list of FAQS.
+* Only Admin can add the FAQS to the list of FAQS.
+
+* Used [Zod] for Input validation.
+
+* Database is designed for future scaling with multiple languages.
+
+* Used [Typescript] for scale based production code.
 
 > **Note**
 > For using Google Translation, get the Google Cloud Translation API.
