@@ -1,8 +1,5 @@
 # For Running Locally
 
-> **Note**
-> This project uses pnpm only as a package manager.
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/srv-18/Backend-feat-faqs-api-complete.git
