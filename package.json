@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tsc -b && node ./dist"
+    "dev": "npx tsc -b && node ./dist",
+    "build": "npx tsc -b",
+    "start": "node ./dist"
   },
   "keywords": [],
   "author": "",
