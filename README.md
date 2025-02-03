@@ -56,3 +56,18 @@ GET Request http://localhost:3000/api/faqs/
 GET Request http://localhost:3000/api/faqs/?lang=hi
 ```
 
+# Features
+
+* The FAQS are cached in Redis.
+
+* It translates Questions and Answers when the admin entries the FAQS.
+
+* The Admin can add the FAQS to the list of FAQS.
+
+> **Note**
+> For using Google Translation, get the Google Cloud Translation API.
+> You have to just change the imports in the services/translation.ts file to google translation.
+> Add this to you .env file.
+```bash
+GOOGLE_APPLICATION_CREDENTIALS=path/to/service-account-key.json
+```
